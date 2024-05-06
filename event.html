@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VietCorp</title>
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/lib/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+		
+</head>
+
+<body style="background-color: pink;">
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-2 col-12">
+                    <a href="#">
+                        <img width="250" src="assets/img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-8 col-2 header-menu position-relative">
+                    <ul class="nav nav-pills nav-custom">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TRANG CHỦ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">GIỚI THIỆU</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">
+                                SẢN PHẨM
+                            </a>
+                            <div class="sub-menu p-0">
+                                <ul class="level0 p-0 m-0 row">
+                                    <li class="level1">
+                                        <a href="">Gốm sứ mỹ nghệ</a>
+                                        <ul class="level1">
+                                            <li class="level2"><a href="">Tô - Chén - Đĩa</a></li>
+                                            <li class="level2"><a href="">Thổ - Khay</a></li>
+                                            <li class="level2"><a href="">Ca - Ly</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level1">
+                                        <a href="">Đồ gỗ mỹ nghệ</a>
+                                        <ul class="level1">
+                                            <li class="level2"><a href="">Bàn ghế gỗ</a></li>
+                                            <li class="level2"><a href="">Đồng hồ gỗ cao cấp</a></li>
+                                            <li class="level2"><a href="">Lục bình gỗ</a></li>
+                                            <li class="level2"><a href="">Thuyền gỗ trang trí</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level1">
+                                        <a href="">Mây đan tre</a>
+                                        <ul class="level1">
+                                            <li class="level2"><a href="">Mây</a></li>
+                                            <li class="level2"><a href="">Lục bình</a></li>
+                                            <li class="level2"><a href="">Cói</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level1">
+                                        <a href="">Sứ dưỡng sinh</a>
+                                        <ul class="level1">
+                                            <li class="level2"><a href="">Ly sứ dưỡng sinh</a></li>
+                                            <li class="level2"><a href="">Hộp sứ dưỡng sinh</a></li>
+                                            <li class="level2"><a href="">Đũa sứ</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level1">
+                                        <a href="">Phụ kiện bàn ăn</a>
+                                        <ul class="level1">
+                                            <li class="level2"><a href="">Muỗng - Đũa</a></li>
+                                            <li class="level2"><a href="">Thổ - Khay</a></li>
+                                            <li class="level2"><a href="">Ca - Ly</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="level1">
+                                        <a href="">Sứ nghệ thuật</a>
+                                        <ul class="level1">
+                                            <li class="level2"><a href="">Tô - Chén - Đĩa</a></li>
+                                            <li class="level2"><a href="">Thổ - Khay</a></li>
+                                            <li class="level2"><a href="">Ca - Ly</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TIN TỨC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CỬA HÀNG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LIÊN HỆ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-12">
+                    <div class="header-control">
+                        <ul class="nav nav-pills nav-custom">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-regular fa-user"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-regular fa-heart"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa-brands fa-shopify"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </header>
+    <style>
+        /* Resetting some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Header styles */
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .nav {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .nav li {
+    margin-left: 20px;
+}
+
+.header .nav li:first-child {
+    margin-left: 0;
+}
+
+.header .nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Banner styles */
+.banner-area {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+}
+
+.banner-area h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+}
+
+.banner-area .link-nav {
+    font-size: 16px;
+    color: #555;
+}
+
+.banner-area .link-nav a {
+    color: #555;
+}
+
+.banner-area .lnr {
+    font-size: 18px;
+    margin: 0 10px;
+}
+
+/* Upcoming event styles */
+.upcoming-event-area {
+    padding: 100px 0;
+}
+
+.upcoming-event-area .title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.upcoming-event-area p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.upcoming-event-area .single-events {
+    margin-bottom: 30px;
+}
+
+.upcoming-event-area .single-events img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.upcoming-event-area .single-events h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.upcoming-event-area .single-events h6 {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.upcoming-event-area .single-events p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.upcoming-event-area .primary-btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.upcoming-event-area .primary-btn:hover {
+    background-color: #555;
+}
+
+/* Blog area styles */
+.blog-area {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.blog-area .title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.blog-area p {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.blog-area .single-blog {
+    margin-bottom: 30px;
+}
+
+.blog-area .single-blog img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.blog-area .single-blog h4 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.blog-area .single-blog p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.blog-area .meta-bottom p {
+    font-size: 14px;
+    color: #999;
+}
+
+    </style>
+    <section class="banner-area relative" id="home">	
+        <div class="overlay overlay-bg"></div>
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="about-content col-lg-12">
+                    <h1 class="text-white">
+                        Upcoming Events		
+                    </h1>	
+                    <p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="event.html"> Events</a></p>
+                </div>											
+            </div>
+        </div>
+    </section>
+    <!-- End banner Area -->	
+
+    <!-- Start upcoming-event Area -->
+    <section class="upcoming-event-area section-gap" id="events">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content pb-60 col-lg-10">
+                    <div class="title text-center">
+                        <h1 class="mb-10">Checkout our Upcoming Events</h1>
+                        <p>Who are in extremely love with eco friendly system.</p>
+                    </div>
+                </div>
+            </div>						
+            <div class="row">
+                <div class="col-lg-6 event-left">
+                    <div class="single-events">
+                        <img class="img-fluid" src="img/u1.jpg" alt="">
+                        <a href="#"><h4>Event on the rock solid carbon</h4></a>
+                        <h6><span>21st February</span> at Central government museum</h6>
+                        <p>
+                            inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially.
+                        </p>
+                        <a href="#" class="primary-btn text-uppercase">View Details</a>
+                    </div>
+                    <div class="single-events">
+                        <img class="img-fluid" src="img/u3.jpg" alt="">
+                        <a href="#"><h4>Event on the rock solid carbon</h4></a>
+                        <h6><span>21st February</span> at Central government museum</h6>
+                        <p>
+                            inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially.
+                        </p>
+                        <a href="#" class="primary-btn text-uppercase">View Details</a>
+                    </div>							
+                </div>
+                <div class="col-lg-6 event-right">
+                    <div class="single-events">
+                        <a href="#"><h4>Event on the rock solid carbon</h4></a>
+                        <h6><span>21st February</span> at Central government museum</h6>
+                        <p>
+                            inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially.
+                        </p>
+                        <a href="#" class="primary-btn text-uppercase">View Details</a>
+                        <img class="img-fluid" src="img/u2.jpg" alt="">
+                    </div>
+                    <div class="single-events">
+                        
+                        <a href="#"><h4>Event on the rock solid carbon</h4></a>
+                        <h6><span>21st February</span> at Central government museum</h6>
+                        <p>
+                            inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards especially.
+                        </p>
+                        <a href="#" class="primary-btn text-uppercase">View Details</a>
+                        <img class="img-fluid" src="img/u4.jpg" alt="">
+                    </div>							
+                </div>
+            </div>
+        </div>	
+    </section>
+    <!-- End upcoming-event Area -->
+
+    
+    <!-- Start blog Area -->
+    <section class="blog-area section-gap" id="blog">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="menu-content pb-70 col-lg-8">
+                    <div class="title text-center">
+                        <h1 class="mb-10">Latest From Our Blog</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>					
+            <div class="row">
+                <div class="col-lg-3 col-md-6 single-blog">
+                    <div class="thumb">
+                        <img class="img-fluid" src="img/b1.jpg" alt="">								
+                    </div>
+                    <p class="date">10 Jan 2018</p>
+                    <a href="#"><h4>Addiction When Gambling
+                    Becomes A Problem</h4></a>
+                    <p>
+                        inappropriate behavior ipsum dolor sit amet, consectetur.
+                    </p>
+                    <div class="meta-bottom d-flex justify-content-between">
+                        <p><span class="lnr lnr-heart"></span> 15 Likes</p>
+                        <p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+                    </div>									
+                </div>
+                <div class="col-lg-3 col-md-6 single-blog">
+                    <div class="thumb">
+                        <img class="img-fluid" src="img/b2.jpg" alt="">								
+                    </div>
+                    <p class="date">10 Jan 2018</p>
+                    <a href="#"><h4>Addiction When Gambling
+                    Becomes A Problem</h4></a>
+                    <p>
+                        inappropriate behavior ipsum dolor sit amet, consectetur.
+                    </p>
+                    <div class="meta-bottom d-flex justify-content-between">
+                        <p><span class="lnr lnr-heart"></span> 15 Likes</p>
+                        <p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+                    </div>									
+                </div>
+                <div class="col-lg-3 col-md-6 single-blog">
+                    <div class="thumb">
+                        <img class="img-fluid" src="img/b3.jpg" alt="">								
+                    </div>
+                    <p class="date">10 Jan 2018</p>
+                    <a href="#"><h4>Addiction When Gambling
+                    Becomes A Problem</h4></a>
+                    <p>
+                        inappropriate behavior ipsum dolor sit amet, consectetur.
+                    </p>
+                    <div class="meta-bottom d-flex justify-content-between">
+                        <p><span class="lnr lnr-heart"></span> 15 Likes</p>
+                        <p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+                    </div>									
+                </div>
+                <div class="col-lg-3 col-md-6 single-blog">
+                    <div class="thumb">
+                        <img class="img-fluid" src="img/b4.jpg" alt="">								
+                    </div>
+                    <p class="date">10 Jan 2018</p>
+                    <a href="#"><h4>Addiction When Gambling
+                    Becomes A Problem</h4></a>
+                    <p>
+                        inappropriate behavior ipsum dolor sit amet, consectetur.
+                    </p>
+                    <div class="meta-bottom d-flex justify-content-between">
+                        <p><span class="lnr lnr-heart"></span> 15 Likes</p>
+                        <p><span class="lnr lnr-bubble"></span> 02 Comments</p>
+                    </div>									
+                </div>							
+            </div>
+        </div>	
+    </section>
+    <!-- End blog Area -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
